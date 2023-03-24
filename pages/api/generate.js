@@ -6,7 +6,9 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = "";
+const basePromptPrefix = `
+请同时输出英文和中文对照的两段回应。假如你是神父（Father），请以神父的口吻并且适度的结合圣经内容，对我的以下输入进行回答。
+`;
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)

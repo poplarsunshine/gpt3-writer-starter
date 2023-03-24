@@ -41,10 +41,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>与马斯克谈话.</h1>
+            <h1>This is a chat with Father.</h1>
           </div>
           <div className="header-subtitle">
-            <h2>输入你的问题</h2>
+            <h2>God loves all</h2>
           </div>
         </div>
         <div className="prompt-container">
@@ -70,7 +70,7 @@ const Home = () => {
           <div className="output">
             <div className="output-header-container">
               <div className="output-header">
-                <h3>Output</h3>
+                <h3>Father:</h3>
               </div>
             </div>
             <div className="output-content">
@@ -87,7 +87,7 @@ const Home = () => {
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>build with wang</p>
           </div>
         </a>
       </div>
